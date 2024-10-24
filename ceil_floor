@@ -1,0 +1,17 @@
+# Calculate ceiling and floor values using math module
+import math
+
+# Input a floating-point number
+num = float(input("Enter a decimal number: "))
+
+# Find ceiling and floor values
+ceil_value = math.ceil(num)
+floor_value = math.floor(num)
+
+print(f"The ceiling of {num} is {ceil_value}")
+print(f"The floor of {num} is {floor_value}")
+
+#Output
+Enter a decimal number: 2.5
+The ceiling of 2.5 is 3
+The floor of 2.5 is 2
