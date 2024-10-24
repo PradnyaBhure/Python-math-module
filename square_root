@@ -1,0 +1,13 @@
+import math
+
+# Input number
+num = int(input("Enter a number: "))
+
+# Find square root
+sqrt_value = math.sqrt(num)
+
+print(f"The square root of {num} is {sqrt_value}")
+
+#Output
+Enter a number: 25
+The square root of 25 is 5.0
