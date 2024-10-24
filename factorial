@@ -1,0 +1,15 @@
+#Calculate the Factoeialof a number using math module
+
+import math
+
+# Input number
+num = int(input("Enter a number: "))
+
+# Find factorial
+factorial_value = math.factorial(num)
+
+print(f"The factorial of {num} is {factorial_value}")
+
+#output:
+Enter a number: 3
+The factorial of 3 is 6
